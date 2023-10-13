@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'project-milestone-4.herokuapp.com', '8001-ibrahimjasim-project-mil-xiv0ozjaf2.us2.codeanyapp.com']
+    'project-milestone-4.herokuapp.com', '8000-ibrahimjasim-project-mil-xiv0ozjaf2.us2.codeanyapp.com']
 
 LOGIN_URL = '/login'
 LOGIN_REDIRECT_URL = '/'
