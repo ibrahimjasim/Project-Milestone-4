@@ -2,8 +2,6 @@
 
 {% block title %} Welcome {% endblock %} 
 
-
-
 {% block content %}
     <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
         <h2 class="mb-12 text-2xl text-center">Newest items</h2>
@@ -12,7 +10,8 @@
                 <div>
                     <a href="{% url 'item:detail' item.id %}">
                         <div>
-                            <img src="{{ item.image.url}}" class="rounded-t-xl">
+                            
+                            <img src="{{ item.image.url }}" class="rounded-t-xl">
                         </div>
 
                         <div class="p-6 bg-white rounded-b-xl">
@@ -30,11 +29,12 @@
         <div class="grid grid-cols-3 gap-3">
             {% for category in categories %}
                 <div>
-                    <a href="">
+                    <!-- Add URL tag for category links -->
+                    <a href="{% url 'category:detail' category.id %}">
                         
                         <div class="p-6 bg-white rounded-b-xl">
                             <h2 class="text-2xl">{{ category.name }}</h2>
-                            <p class="text-gray-500">{{ category.items.count }}</p>
+                            <p class="text-gray-500">{{ category.items.count }} Items</p>
                         </div>
                     </a>
                 </div>

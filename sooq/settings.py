@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'project-milestone-4-a3fe406458a7.herokuapp.com', '8000-ibrahimjasim-project-mil-xiv0ozjaf2.us2.codeanyapp.com']
+    'project-milestone-4-a3fe406458a7.herokuapp.com', '8000-ibrahimjasim-project-mil-xiv0ozjaf2.us2.codeanyapp.com', '8000-ibrahimjasi-projectmile-0ub3mi52yit.ws-eu107.gitpod.io']
 
 LOGIN_URL = '/login'
 LOGIN_REDIRECT_URL = '/'
@@ -46,7 +46,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
+    'cloudinary',
     'conversation',
     'core',
     'dashboard',
@@ -136,10 +138,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_URL = 'media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
