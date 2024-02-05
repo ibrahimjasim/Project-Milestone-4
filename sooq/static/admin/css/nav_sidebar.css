@@ -110,7 +110,7 @@
 
 @media (max-width: 767px) {
     #nav-sidebar, #toggle-nav-sidebar {
-        display: none;
+        display:none;
     }
 
     .main > #nav-sidebar + .content,

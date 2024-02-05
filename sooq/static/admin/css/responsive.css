@@ -464,11 +464,11 @@ input[type="submit"], button {
 
 /* Mobile */
 
-@media (max-width: 767px) {
+@media only screen and (min-width: 430px) and (max-width: 900px) {
     /* Layout */
 
     #header, #content, #footer {
-        padding: 15px;
+        padding: 5px;
     }
 
     #footer:empty {
@@ -482,7 +482,7 @@ input[type="submit"], button {
     /* Dashboard */
 
     .colMS, .colSM {
-        margin: 0;
+        margin: 5px;
     }
 
     #content-related, .colSM #content-related {

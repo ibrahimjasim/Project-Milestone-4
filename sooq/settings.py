@@ -28,10 +28,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = True 
 
 ALLOWED_HOSTS = [
-    'project-milestone-4-a3fe406458a7.herokuapp.com', '8000-ibrahimjasim-project-mil-xiv0ozjaf2.us2.codeanyapp.com', '8000-ibrahimjasi-projectmile-0ub3mi52yit.ws-eu107.gitpod.io']
+    'project-milestone-4-a3fe406458a7.herokuapp.com', '8000-ibrahimjasim-project-mil-xiv0ozjaf2.us2.codeanyapp.com', '8000-ibrahimjasi-projectmile-0ub3mi52yit.ws-eu108.gitpod.io']
 
 LOGIN_URL = '/login'
 LOGIN_REDIRECT_URL = '/'
