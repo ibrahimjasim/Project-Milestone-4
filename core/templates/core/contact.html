@@ -1,5 +1,24 @@
-{% extends 'core/base.html' %} {% block title %} Contact {% endblock %} 
+{% extends 'core/base.html' %}
+
+{% block title %}Contact{% endblock %}
 
 {% block content %}
-    <h1>The Contact pagge</h1>
+    <h1>The Contact Page</h1>
+    <form action="/submit-contact-form" method="post">
+        <div class="mb-3">
+            <label class="inline-block mb-2" for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+            <label class="inline-block mb-2" for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+            <button type="submit" class="py-4 px-8 text-lg bg-teal-500 hover:bg-teal-500 rounded-s text-white">Send Message</button>
+        </div>
+    </form>
 {% endblock %}
