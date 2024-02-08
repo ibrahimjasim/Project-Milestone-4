@@ -1,9 +1,34 @@
-# SOOQ - a virtual marketplace
-![snip 1]
-
+# SOOQ - your virtual marketplace
 The SOOQ website is a virtual marketplace where users can sign up to buy and sell items privatly from the comfort of their home.
 It currently consists of three categories "Clothes", "Furniture" and "Toys". New categories as well as sub categories can be added as the demand increases.
 
+![PP4 am i res](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/6d8998cc-a3c1-43ea-9e3c-d1e3192bcb81)
+## UX
+###  Site Purpose:
+The purpose of the "SooQ" website is to operate as an online marketplace for second-hand goods, allowing individuals to buy and sell items such as furniture, electronics, and personal vehicles. It provides a platform where sellers can list their items along with details and set prices, and where buyers can easily find and purchase these items at a reduced cost compared to new. The site is designed to facilitate user-to-user transactions with an emphasis on ease of use, accessibility, and efficient communication between parties. It aims to create a trusted community for second-hand transactions, making it simpler for people to find what they need or sell what they don't, all within a user-friendly and secure online environment.
+
+### Site Goals:
+* To provide a user-friendly platform for buying and selling second-hand items.
+* To facilitate safe and efficient transactions between buyers and sellers.
+* To offer a diverse range of quality second-hand products at competitive prices.
+* To reduce waste by promoting the reuse of goods.
+
+### Layout and Design:
+* The website has a clean and minimalistic design with a clear focus on the items for sale.
+* Product images are large and prominent, making it easy for users to see what is being offered.
+* The navigation bar at the top includes options for adding a new item, browsing, accessing the inbox, and viewing the dashboard, suggesting a user-centered design that facilitates easy access to the main features.
+
+### Ease of Use:
+* The newest items are displayed on the homepage, immediately engaging users with the latest offerings.
+* Each item has a clear label and price tag, which enhances the shopping experience by providing essential information at a glance.
+
+### Functionality:
+* The presence of a price tag indicates that users can view the price directly without the need for additional clicks, streamlining the shopping experience.
+* The "Log Out" button is visible, ensuring users can easily secure their account after they are done using the service.
+
+### Accessibility: 
+* The color contrast appears to be well-balanced for readability.
+* The site layout is likely to be responsive, ensuring it can be used across various devices effectively.
 
 ## The SOOQ landing page- not signed in
 
