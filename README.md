@@ -54,7 +54,8 @@ To buy, sell and explore a wide range or categories, sub categories and niched p
 * The color contrast appears to be well-balanced for readability.
 * The site layout is likely to be responsive, ensuring it can be used across various devices effectively.
 
-  ### Data schema
+
+## Data schema
   ![PP4 DrawSQL](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/4a6e18b5-aac1-4a27-b94b-d6af415d8066)
 
 
@@ -146,19 +147,30 @@ A new message will notify the user in later updates.
 | **TEST**                      | **ACTION**             | **EXPECTATION**                                           | **RESULT** |
 | ----------------------------- | ---------------------- | --------------------------------------------------------- | ---------- |
 | Landing page                  | Click SooQ                  | user routed to landing page                               | ✅         |
-| Header links                  | Click on New item        | User routed to Term of use  page                     | ✅         |
+| Header links                  | Click on New item        | User routed to page to post item for sale                     | ✅         |
+| Header links                  | Click on Browse       | User routed to page with all items and categories                   | ✅         |
+| Header links                  | Click on Log in       | User routed to page to log in                  | ✅         |
+| Header links                  | Click on Sign up        | User routed to page to sign up                    | ✅         |
+| Header links                  | Click on Inbox       | Signed in user routed to inbox                   | ✅         |
+| Header links                  | Click on Dashboard       | Signed in user routed to dashboard                    | ✅         |
+| Header links                  | Click on Sign out     | Signed in user is loggged out                   | ✅         |
+| Header links                  | Click on New item      | Signed in user routed to New item-page                   | ✅         |
+| Header links                  | Click on New item      | Signed out user routed to Sign in-page                 | ✅         |
 | Footer links                  | Visible at bottom of page   | Visible and readable                                      | ✅         |
 | Footer links                  | Click on About              | User routed to About page                                 | ✅         |
 | Footer links                  | Click on Contact            | User routed to Contact page                                 | ✅         |
 | Footer links                  | Click on Privacy            | User routed to Privacy page                                 | ✅         |
 | Footer links                  | Click on Term of use        | User routed to Term of use  page                     | ✅         |
-| Like button                   | Click "like"           | Post liked/unliked accordingly                            | ✅         |
-| Edit button                   | Click edit button      | user navigated to edit screen                             | ✅         |
-| Delete button                 | Click delete button    | print/blog removed from UI                                | ✅         |
-| Internal links                | Click link             | User routed to appropriate page                           | ✅         |
-| Login                         | User logs in           | UI updates & user is logged in                            | ✅         |
-| Sign up                       | User signs up          | new account created for the user                          | ✅         |
-| Logout                        | User clicks logout     | UI updates, user is logged out, user cannot create a post | ✅         |
+| Items images                 | Click on item for sale       | User routed to page containing information                     | ✅         |
+| Items images                 | Click on Contact seller      | User routed to message form                    | ✅         |
+| Items images                 | Click on New conversation     | User messagge gets sent                   | ✅         |
+| My items                | Click on own items     | User is allowed to edit/remove post                | ✅         |
+| Related items                | Click on Related items    | User is redirected to item page               | ✅         |
+| Search bar              | Enter "sofa"   | User gets successful hit               | ✅         |
+| Category                | Click on "Home & Garden"   | User is redikrected to correct  category page              | ✅         |
+| Login                         | User logs in           | User is logged in                            | ✅         |
+| Sign up                       | User signs up          | New account is created                     | ✅         |
+| Logout                        | User clicks logout     | User is logged out, user cannot create a post | ✅         |
 
 
 
