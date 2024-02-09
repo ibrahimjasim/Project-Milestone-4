@@ -1,9 +1,73 @@
-# SOOQ - a virtual marketplace
-![snip 1]
-
+# SOOQ - your virtual marketplace
 The SOOQ website is a virtual marketplace where users can sign up to buy and sell items privatly from the comfort of their home.
 It currently consists of three categories "Clothes", "Furniture" and "Toys". New categories as well as sub categories can be added as the demand increases.
 
+![PP4 am i res](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/6d8998cc-a3c1-43ea-9e3c-d1e3192bcb81)
+## UX
+
+###  Site Purpose:
+The purpose of the "SooQ" website is to operate as an online marketplace for second-hand goods, allowing individuals to buy and sell items such as furniture, electronics, and personal vehicles. It provides a platform where sellers can list their items along with details and set prices, and where buyers can easily find and purchase these items at a reduced cost compared to new. The site is designed to facilitate user-to-user transactions with an emphasis on ease of use, accessibility, and efficient communication between parties. It aims to create a trusted community for second-hand transactions, making it simpler for people to find what they need or sell what they don't, all within a user-friendly and secure online environment.
+
+### Site Goals:
+* To provide a user-friendly platform for buying and selling second-hand items.
+* To facilitate safe and efficient transactions between buyers and sellers.
+* To offer a diverse range of quality second-hand products at competitive prices.
+* To reduce waste by promoting the reuse of goods.
+
+### Audience:
+For the everyday person who enjoys finding unique, pre-loved and environmentally concious bargains from the comfort of the home.
+It is also designed for the everyday person who have unused items that can be sold using the platform.
+
+### Communication:
+The site uses a very simmplistic and familiar structure that allows the user to find what they want/need with ease. The bar at the header stays in place at all times allowing for the user to have access to the most popular shortcuts at all tiems. The items listed for sale have all the information a user mmight want to know before klicking on the item (imagge, short description and price).
+
+### Current User Goals:
+To buy, sell and explore the products listed for sale within the few available categories.
+
+### Future User Goals:
+To buy, sell and explore a wide range or categories, sub categories and niched products. 
+
+### Future Site Goals:
+- Being able to sign in/ sign up with Google, Facebook and phone number
+- Adding categories for all possible items that can be legally and feasably sold on an online market platform.
+- Adding sub categories that divides and separates the items for easy navigation, browsing and scrolling.
+- Expanding the platform to other regions and in other languages.
+- Adding a section where users can offer to buy items by providing a description/image and allowingg for other users who own the advertised product to offer it up for sale.
+- Adding an alert-button when a certain item/keyword is listed so that the user can find the product they want immidietly after posting. 
+- Allowing users to "highlight" ther products for sale by paying a small fee.
+- Exploring the option of allowing advertising on the platformm to keep it free of charge at the basic level.
+  
+### Layout and Design:
+* The website has a clean and minimalistic design with a clear focus on the items for sale.
+* Product images are large and prominent, making it easy for users to see what is being offered.
+* The navigation bar at the top includes options for adding a new item, browsing, accessing the inbox, and viewing the dashboard, suggesting a user-centered design that facilitates easy access to the main features.
+
+### Ease of Use:
+* The newest items are displayed on the homepage, immediately engaging users with the latest offerings.
+* Each item has a clear label and price tag, which enhances the shopping experience by providing essential information at a glance.
+
+### Functionality:
+* The presence of a price tag indicates that users can view the price directly without the need for additional clicks, streamlining the shopping experience.
+* The "Log Out" button is visible, ensuring users can easily secure their account after they are done using the service.
+
+### Accessibility: 
+* The color contrast appears to be well-balanced for readability.
+* The site layout is likely to be responsive, ensuring it can be used across various devices effectively.
+
+
+## Data schema
+  ![PP4 DrawSQL](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/4a6e18b5-aac1-4a27-b94b-d6af415d8066)
+
+## Wireframe
+![Browse page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/fdcd54cb-d48d-4907-aedc-8a39b3adb2fa)
+![Contact page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/b88e06e3-1648-4433-90a1-6c10caa52c15)
+![Landing page signed in](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/ce8efc52-53e1-420e-afd6-9709885a85ac)
+![Landing page signed out](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/047a1f5b-387d-46fa-85dc-eee4b9c4f500)
+![Sign in page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/041291e3-d369-4435-89c9-fadb8c20fc0b)
+![Sign up page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/63fcb955-a96f-4867-ab68-c1b218c0d62f)
+![Signed in- Dashboard page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/ac495007-30fc-43a5-8b3e-33cd6fbf17ad)
+![Signed in- Inbox](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/a8437967-9a3d-4ada-865c-86ecfae6c309)
+![Signed in- New item pagge](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/7880cb97-bbe5-4968-b557-674d13bc97fb)
 
 ## The SOOQ landing page- not signed in
 
@@ -11,7 +75,8 @@ Has a panel at the top with clickable buttons.
 These consist of options to "Sign in", "Browse" and "New items". The  SOOQ-name is also cxlickable and will redirect the user to the landing page. 
 
 The first items visible are the "Newest items". These are found within a light grey section in a grid pattern consisting of three items per row. 
-In the future, the grid will be restricted to 3 X 3 rows in order to keep the page user friendly. 
+In the future, the grid will be restricted to 3 X 3 rows as per default in order to keep the page user friendly. 
+The user may change the settings to their given perference. 
 
 Under the "Newest items" the section consisting of the three categories is visible. 
 As of now there are three categories but options for adding and removing will be implimented for the admin of the page.
@@ -87,21 +152,158 @@ A new message will notify the user in later updates.
 
 ## Testing
 
-- I have manually tested the project by following these steps:
--  Clicked on the images, ads, buttons, links and categories.
--  Made sure that a new item can be listed, edited and removed.
--  Made sure that the admin-page tells me a new message has ben reveived by a "user".
--  Check if an item listed shows the correct price, description, category and images.
--  Newest items should be sent to the top of the "Dashboard" or landing page.
--  Related items should be suggested from the same/similar cetagories. (The Teddy has the Toy Car as a related item)
+### Validator Testing
+| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** |
+| ----------------------------- | ----------------------- | --------------------------- | ---------- |
+| sooq - urls.py | PEP8 validator | No issues found | ✅ |
+| core - forms.py | PEP8 validator | No issues found | ✅ |
+| core - models.py | PEP8 validator | No issues found | ✅ |
+| core- views.py | PEP8 validator | No issues found | ✅ |
+| core - urls.py | PEP8 validator | No issues found | ✅ |
+| core - admin.py | PEP8 validator | No issues found | ✅ |
+| core- forms.py | PEP8 validator | No issues found | ✅ |
+| dashboard - models.py | PEP8 validator | No issues found | ✅ |
+| dashboard - views.py | PEP8 validator | No issues found | ✅ |
+| dashboard - urls.py | PEP8 validator | No issues found | ✅ |
+| dashboard - admin.py | PEP8 validator | No issues found | ✅ |
+| style.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found](static/images-readme/readme-w3c-css.png) | ✅ |
+| Home page - html | [W3C](https://validator.w3.org/) validator - source code | No issues found | ✅ |
+| About page - html | W3C validator - source code | No issues found | ✅ |
+| Blog page - html | W3C validator - source code | No issues found | ✅ |
+| Prints page - html | W3C validator - source code | No issues found | ✅ |
+| Sign-in page - html | W3C validator - source code | No issues found | ✅ |
+| Home page - html | lighthouse | [Acceptable scores](static/images-readme/readme-lighthouse.png) | ✅ |
+| About page - html | lighthouse | Acceptable scores | ✅ |
+| Blog page - html | lighthouse | Acceptable scores | ✅ |
+| Prints page - html | lighthouse | Acceptable scores | ✅ |
+| Sign-in page - html | lighthouse | Acceptable scores | ✅ |
+| Brave browser | Launch site | Site opens without issue | ✅ |
+| Chrome browser | Launch site | Site opens without issue | ✅ |
+| Safari browser | Launch site | Site opens without issue | ✅ |
+
+### C.R.U.D. testing
+
+| **TEST**          | **ACTION**             | **EXPECTATION**          | **RESULT** |
+| ----------------- | ---------------------- | ------------------------ | ---------- |
+| List item - Create | Add new instance to DB | Instance created         | ✅         |
+| Edit item - Update | Modify an instance   | Mods saved & visible         | ✅         |
+| Delete item - Delete | Delete an instance     | Instance removed from UI | ✅         |
+| Message - Create | Add new instance to DB | Instance created         | ✅         |
+| Message - Read   | Retrieve all instances | Instances visible in UI  | ✅         |
+| Message - Update | Modify an instance     | Mods saved & visible     | ✅         |
+| Search item - Create | Add new instance to DB | Instance created         | ✅         |
+| Search item - Update | Modify an instance   | Mods saved & visible         | ✅         |
+| Search item - Delete | Delete an instance     | Instance removed from UI | ✅         |
+| Search item - Read   | Retrieve all instances | Instances visible in UI  | ✅         |
+
+
+### Features
+
+| **TEST**                      | **ACTION**             | **EXPECTATION**                                           | **RESULT** |
+| ----------------------------- | ---------------------- | --------------------------------------------------------- | ---------- |
+| Landing page                  | Click SooQ                  | user routed to landing page                               | ✅         |
+| Header links                  | Click on New item        | User routed to page to post item for sale                     | ✅         |
+| Header links                  | Click on Browse       | User routed to page with all items and categories                   | ✅         |
+| Header links                  | Click on Log in       | User routed to page to log in                  | ✅         |
+| Header links                  | Click on Sign up        | User routed to page to sign up                    | ✅         |
+| Header links                  | Click on Inbox       | Signed in user routed to inbox                   | ✅         |
+| Header links                  | Click on Dashboard       | Signed in user routed to dashboard                    | ✅         |
+| Header links                  | Click on Sign out     | Signed in user is loggged out                   | ✅         |
+| Header links                  | Click on New item      | Signed in user routed to New item-page                   | ✅         |
+| Header links                  | Click on New item      | Signed out user routed to Sign in-page                 | ✅         |
+| Footer links                  | Visible at bottom of page   | Visible and readable                                      | ✅         |
+| Footer links                  | Click on About              | User routed to About page                                 | ✅         |
+| Footer links                  | Click on Contact            | User routed to Contact page                                 | ✅         |
+| Footer links                  | Click on Privacy            | User routed to Privacy page                                 | ✅         |
+| Footer links                  | Click on Term of use        | User routed to Term of use  page                     | ✅         |
+| Items images                 | Click on item for sale       | User routed to page containing information                     | ✅         |
+| Items images                 | Click on Contact seller      | User routed to message form                    | ✅         |
+| Items images                 | Click on New conversation     | User messagge gets sent                   | ✅         |
+| My items                | Click on own items     | User is allowed to edit/remove post                | ✅         |
+| My items                | Click on own items     | User is allowed to edit/remove post                | ✅         |
+| Error message               | Sign up with e-mail without @ | Error essage pops up containing information on correct format             | ✅         |
+| Error message               | Leaving field empty | Error message pops up asking for input of data            | ✅         |
+| Error message               | Trying to edit/delete other users post | Not allowed            | ✅         |
+| Search bar              | Enter "sofa"   | User gets successful hit               | ✅         |
+| Category                | Click on "Home & Garden"   | User is redikrected to correct  category page              | ✅         |
+| Login                         | User logs in           | User is logged in                            | ✅         |
+| Sign up                       | User signs up          | New account is created                     | ✅         |
+| Logout                        | User clicks logout     | User is logged out, user cannot create a post | ✅         |
+
 
 
 ## Bugs
-- No known bugs.
+- When pressing "Log in", user is redirected to "Contact page".
+  Solved by redirectingg to correct path.
+- Website crashed due to saved images having no allocated storage.
+  Solved by adding cloudinery storage.
+  
+## Unfixed bugs
+- None found during testing.
 
 
-# Validator testing
-- No errors detected when navigating the site with the mentor.
+## Technologies Used
+### Main Languages Used
+- HTML5
+- CSS3
+- Javascript
+- Python
+- Django
+- SQL - Postgres
+
+### Frameworks, Libraries & Programs Used
+- GitPod - to create my html files & styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Balsamiq - were used to create mockups of the project prior to starting.
+- Am I Responsive? - to ensure the project looked good across all devices.
+- Favicon - to provide the code & image for the icon in the tab bar.
+- Django
+- Bootstrap
+- DrawSQL
+
+  ### Installed Packages:
+- 'django<4' gunicorn
+- dj_database_url psycopg2
+- dj3-cloudinary-storage
+- django-summernote [(link)](https://summernote.org/)
+- django-allauth [(link)](https://django-allauth.readthedocs.io/en/latest/)
+- django-crispy-forms[(link)](https://django-crispy-forms.readthedocs.io/en/latest/index.html)
+
+## Deployment
+The site was deployed to Heroku. The steps to deploy are as follows:
+- Install Django & Gunicorn:
+```pip3 install 'django<4' gunicorn```
+- Install Django database & psycopg:
+```pip3 install dj_database_url psycopg2```
+- Install Cloudinary:
+```pip3 install dj3-cloudinary-storage```
+- Creating the requirements.txt file with the following command:
+```pip3 freeze --local > requirements.txt```
+- a django project was created using:
+```django-admin startproject printstatements .```
+- the blog app was then created with:
+```python3 manage.py startapp blog```
+- which was then added to the settings.py file within our project directory.
+- the changes were then migrated using:
+```python3 manage.py migrate```
+- navigated to [Heroku](www.heroku.com) & created a new app called print-statements.
+- added the Heroku Postgres database to the Resources tab.
+- navigated to the Settings Tab, to add the following key/value pairs to the configvars:
+1. key: SECRET_KEY | value: randomkey
+2. key: PORT | value: 8000
+3. key: CLOUDINARY_URL | value: API environment variable
+4. key: DATABASE_URL | value: value supplied by Heroku
+- added the DATABASE_URL, SECRET_KEY & CLOUDINARY_URL to the env.py file
+- added the DATABASE_URL, SECRET_KEY & CLOUDINARY_URL to the settings.py file
+- add an import os statement for the env.py file.
+- added Heroku to the ALLOWED_HOSTS in settings.py
+- created the Procfile
+- pushed the project to Github
+- connected my github account to Heroku through the Deploy tab
+- connected my github project repository, and then clicked on the "Deploy" button
+
+* Due to Heroku revoking their frie tier access, the project has been redeployed using (Render)[https://render.com/] & (ElephantSQL)[https://www.elephantsql.com/] using the following [instructions](https://code-institute-students.github.io/deployment-docs/30-pp4/)
+- The live link for "print(STATEMENTS)" can be found [HERE](https://project4-print-statements.onrender.com/)
 
 
 ## Credits
