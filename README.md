@@ -58,6 +58,16 @@ To buy, sell and explore a wide range or categories, sub categories and niched p
 ## Data schema
   ![PP4 DrawSQL](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/4a6e18b5-aac1-4a27-b94b-d6af415d8066)
 
+## Wireframe
+![Browse page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/fdcd54cb-d48d-4907-aedc-8a39b3adb2fa)
+![Contact page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/b88e06e3-1648-4433-90a1-6c10caa52c15)
+![Landing page signed in](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/ce8efc52-53e1-420e-afd6-9709885a85ac)
+![Landing page signed out](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/047a1f5b-387d-46fa-85dc-eee4b9c4f500)
+![Sign in page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/041291e3-d369-4435-89c9-fadb8c20fc0b)
+![Sign up page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/63fcb955-a96f-4867-ab68-c1b218c0d62f)
+![Signed in- Dashboard page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/ac495007-30fc-43a5-8b3e-33cd6fbf17ad)
+![Signed in- Inbox](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/a8437967-9a3d-4ada-865c-86ecfae6c309)
+![Signed in- New item pagge](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/7880cb97-bbe5-4968-b557-674d13bc97fb)
 
 ## The SOOQ landing page- not signed in
 
