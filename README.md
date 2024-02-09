@@ -4,6 +4,7 @@ It currently consists of three categories "Clothes", "Furniture" and "Toys". New
 
 ![PP4 am i res](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/6d8998cc-a3c1-43ea-9e3c-d1e3192bcb81)
 ## UX
+
 ###  Site Purpose:
 The purpose of the "SooQ" website is to operate as an online marketplace for second-hand goods, allowing individuals to buy and sell items such as furniture, electronics, and personal vehicles. It provides a platform where sellers can list their items along with details and set prices, and where buyers can easily find and purchase these items at a reduced cost compared to new. The site is designed to facilitate user-to-user transactions with an emphasis on ease of use, accessibility, and efficient communication between parties. It aims to create a trusted community for second-hand transactions, making it simpler for people to find what they need or sell what they don't, all within a user-friendly and secure online environment.
 
@@ -13,6 +14,29 @@ The purpose of the "SooQ" website is to operate as an online marketplace for sec
 * To offer a diverse range of quality second-hand products at competitive prices.
 * To reduce waste by promoting the reuse of goods.
 
+### Audience:
+For the everyday person who enjoys finding unique, pre-loved and environmentally concious bargains from the comfort of the home.
+It is also designed for the everyday person who have unused items that can be sold using the platform.
+
+### Communication:
+The site uses a very simmplistic and familiar structure that allows the user to find what they want/need with ease. The bar at the header stays in place at all times allowing for the user to have access to the most popular shortcuts at all tiems. The items listed for sale have all the information a user mmight want to know before klicking on the item (imagge, short description and price).
+
+### Current User Goals:
+To buy, sell and explore the products listed for sale within the few available categories.
+
+### Future User Goals:
+To buy, sell and explore a wide range or categories, sub categories and niched products. 
+
+### Future Site Goals:
+- Being able to sign in/ sign up with Google, Facebook and phone number
+- Adding categories for all possible items that can be legally and feasably sold on an online market platform.
+- Adding sub categories that divides and separates the items for easy navigation, browsing and scrolling.
+- Expanding the platform to other regions and in other languages.
+- Adding a section where users can offer to buy items by providing a description/image and allowingg for other users who own the advertised product to offer it up for sale.
+- Adding an alert-button when a certain item/keyword is listed so that the user can find the product they want immidietly after posting. 
+- Allowing users to "highlight" ther products for sale by paying a small fee.
+- Exploring the option of allowing advertising on the platformm to keep it free of charge at the basic level.
+  
 ### Layout and Design:
 * The website has a clean and minimalistic design with a clear focus on the items for sale.
 * Product images are large and prominent, making it easy for users to see what is being offered.
@@ -30,13 +54,18 @@ The purpose of the "SooQ" website is to operate as an online marketplace for sec
 * The color contrast appears to be well-balanced for readability.
 * The site layout is likely to be responsive, ensuring it can be used across various devices effectively.
 
+  ### Data schema
+  ![PP4 DrawSQL](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/4a6e18b5-aac1-4a27-b94b-d6af415d8066)
+
+
 ## The SOOQ landing page- not signed in
 
 Has a panel at the top with clickable buttons. 
 These consist of options to "Sign in", "Browse" and "New items". The  SOOQ-name is also cxlickable and will redirect the user to the landing page. 
 
 The first items visible are the "Newest items". These are found within a light grey section in a grid pattern consisting of three items per row. 
-In the future, the grid will be restricted to 3 X 3 rows in order to keep the page user friendly. 
+In the future, the grid will be restricted to 3 X 3 rows as per default in order to keep the page user friendly. 
+The user may change the settings to their given perference. 
 
 Under the "Newest items" the section consisting of the three categories is visible. 
 As of now there are three categories but options for adding and removing will be implimented for the admin of the page.
@@ -111,6 +140,30 @@ A new message will notify the user in later updates.
 
 
 ## Testing
+
+### Features
+
+| **TEST**                      | **ACTION**             | **EXPECTATION**                                           | **RESULT** |
+| ----------------------------- | ---------------------- | --------------------------------------------------------- | ---------- |
+| Landing page                  | Click SooQ                  | user routed to landing page                               | ✅         |
+| Header links                  | Click on New item        | User routed to Term of use  page                     | ✅         |
+| Footer links                  | Visible at bottom of page   | Visible and readable                                      | ✅         |
+| Footer links                  | Click on About              | User routed to About page                                 | ✅         |
+| Footer links                  | Click on Contact            | User routed to Contact page                                 | ✅         |
+| Footer links                  | Click on Privacy            | User routed to Privacy page                                 | ✅         |
+| Footer links                  | Click on Term of use        | User routed to Term of use  page                     | ✅         |
+| Like button                   | Click "like"           | Post liked/unliked accordingly                            | ✅         |
+| Edit button                   | Click edit button      | user navigated to edit screen                             | ✅         |
+| Delete button                 | Click delete button    | print/blog removed from UI                                | ✅         |
+| Internal links                | Click link             | User routed to appropriate page                           | ✅         |
+| Login                         | User logs in           | UI updates & user is logged in                            | ✅         |
+| Sign up                       | User signs up          | new account created for the user                          | ✅         |
+| Logout                        | User clicks logout     | UI updates, user is logged out, user cannot create a post | ✅         |
+
+
+
+
+
 
 - I have manually tested the project by following these steps:
 -  Clicked on the images, ads, buttons, links and categories.
