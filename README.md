@@ -152,6 +152,35 @@ A new message will notify the user in later updates.
 
 ## Testing
 
+### Validator Testing
+| **TEST** | **ACTION** | **EXPECTATION** | **RESULT** |
+| ----------------------------- | ----------------------- | --------------------------- | ---------- |
+| sooq - urls.py | PEP8 validator | No issues found | ✅ |
+| core - forms.py | PEP8 validator | No issues found | ✅ |
+| core - models.py | PEP8 validator | No issues found | ✅ |
+| core- views.py | PEP8 validator | No issues found | ✅ |
+| core - urls.py | PEP8 validator | No issues found | ✅ |
+| core - admin.py | PEP8 validator | No issues found | ✅ |
+| core- forms.py | PEP8 validator | No issues found | ✅ |
+| dashboard - models.py | PEP8 validator | No issues found | ✅ |
+| dashboard - views.py | PEP8 validator | No issues found | ✅ |
+| dashboard - urls.py | PEP8 validator | No issues found | ✅ |
+| dashboard - admin.py | PEP8 validator | No issues found | ✅ |
+| style.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found](static/images-readme/readme-w3c-css.png) | ✅ |
+| Home page - html | [W3C](https://validator.w3.org/) validator - source code | No issues found | ✅ |
+| About page - html | W3C validator - source code | No issues found | ✅ |
+| Blog page - html | W3C validator - source code | No issues found | ✅ |
+| Prints page - html | W3C validator - source code | No issues found | ✅ |
+| Sign-in page - html | W3C validator - source code | No issues found | ✅ |
+| Home page - html | lighthouse | [Acceptable scores](static/images-readme/readme-lighthouse.png) | ✅ |
+| About page - html | lighthouse | Acceptable scores | ✅ |
+| Blog page - html | lighthouse | Acceptable scores | ✅ |
+| Prints page - html | lighthouse | Acceptable scores | ✅ |
+| Sign-in page - html | lighthouse | Acceptable scores | ✅ |
+| Brave browser | Launch site | Site opens without issue | ✅ |
+| Chrome browser | Launch site | Site opens without issue | ✅ |
+| Safari browser | Launch site | Site opens without issue | ✅ |
+
 ### C.R.U.D. testing
 
 | **TEST**          | **ACTION**             | **EXPECTATION**          | **RESULT** |
@@ -212,8 +241,6 @@ A new message will notify the user in later updates.
 ## Unfixed bugs
 - None found during testing.
 
-# Validator testing
-- No errors detected when navigating the site with the mentor.
 
 ## Technologies Used
 ### Main Languages Used
