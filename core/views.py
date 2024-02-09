@@ -49,3 +49,7 @@ def signup(request):
 def logout_view(request):
     logout(request)
     return redirect('/login/')
+
+
+def about(request):
+    return render(request, 'core/about.html')
