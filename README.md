@@ -142,6 +142,22 @@ A new message will notify the user in later updates.
 
 ## Testing
 
+### C.R.U.D. testing
+
+| **TEST**          | **ACTION**             | **EXPECTATION**          | **RESULT** |
+| ----------------- | ---------------------- | ------------------------ | ---------- |
+| List item - Create | Add new instance to DB | Instance created         | ✅         |
+| Edit item - Update | Modify an instance   | Mods saved & visible         | ✅         |
+| Delete item - Delete | Delete an instance     | Instance removed from UI | ✅         |
+| Message - Create | Add new instance to DB | Instance created         | ✅         |
+| Message - Read   | Retrieve all instances | Instances visible in UI  | ✅         |
+| Message - Update | Modify an instance     | Mods saved & visible     | ✅         |
+| Search item - Create | Add new instance to DB | Instance created         | ✅         |
+| Search item - Update | Modify an instance   | Mods saved & visible         | ✅         |
+| Search item - Delete | Delete an instance     | Instance removed from UI | ✅         |
+| Search item - Read   | Retrieve all instances | Instances visible in UI  | ✅         |
+
+
 ### Features
 
 | **TEST**                      | **ACTION**             | **EXPECTATION**                                           | **RESULT** |
@@ -165,7 +181,10 @@ A new message will notify the user in later updates.
 | Items images                 | Click on Contact seller      | User routed to message form                    | ✅         |
 | Items images                 | Click on New conversation     | User messagge gets sent                   | ✅         |
 | My items                | Click on own items     | User is allowed to edit/remove post                | ✅         |
-| Related items                | Click on Related items    | User is redirected to item page               | ✅         |
+| My items                | Click on own items     | User is allowed to edit/remove post                | ✅         |
+| Error message               | Sign up with e-mail without @ | Error essage pops up containing information on correct format             | ✅         |
+| Error message               | Leaving field empty | Error message pops up asking for input of data            | ✅         |
+| Error message               | Trying to edit/delete other users post | Not allowed            | ✅         |
 | Search bar              | Enter "sofa"   | User gets successful hit               | ✅         |
 | Category                | Click on "Home & Garden"   | User is redikrected to correct  category page              | ✅         |
 | Login                         | User logs in           | User is logged in                            | ✅         |
@@ -174,24 +193,80 @@ A new message will notify the user in later updates.
 
 
 
-
-
-
-- I have manually tested the project by following these steps:
--  Clicked on the images, ads, buttons, links and categories.
--  Made sure that a new item can be listed, edited and removed.
--  Made sure that the admin-page tells me a new message has ben reveived by a "user".
--  Check if an item listed shows the correct price, description, category and images.
--  Newest items should be sent to the top of the "Dashboard" or landing page.
--  Related items should be suggested from the same/similar cetagories. (The Teddy has the Toy Car as a related item)
-
-
 ## Bugs
-- No known bugs.
-
+- When pressing "Log in", user is redirected to "Contact page".
+  Solved by redirectingg to correct path.
+- Website crashed due to saved images having no allocated storage.
+  Solved by adding cloudinery storage.
+  
+## Unfixed bugs
+- None found during testing.
 
 # Validator testing
 - No errors detected when navigating the site with the mentor.
+
+## Technologies Used
+### Main Languages Used
+- HTML5
+- CSS3
+- Javascript
+- Python
+- Django
+- SQL - Postgres
+
+### Frameworks, Libraries & Programs Used
+- GitPod - to create my html files & styling sheet before pushing the project to Github.
+- GitHub - to store my repository for submission.
+- Balsamiq - were used to create mockups of the project prior to starting.
+- Am I Responsive? - to ensure the project looked good across all devices.
+- Favicon - to provide the code & image for the icon in the tab bar.
+- Django
+- Bootstrap
+- DrawSQL
+
+  ### Installed Packages:
+- 'django<4' gunicorn
+- dj_database_url psycopg2
+- dj3-cloudinary-storage
+- django-summernote [(link)](https://summernote.org/)
+- django-allauth [(link)](https://django-allauth.readthedocs.io/en/latest/)
+- django-crispy-forms[(link)](https://django-crispy-forms.readthedocs.io/en/latest/index.html)
+
+## Deployment
+The site was deployed to Heroku. The steps to deploy are as follows:
+- Install Django & Gunicorn:
+```pip3 install 'django<4' gunicorn```
+- Install Django database & psycopg:
+```pip3 install dj_database_url psycopg2```
+- Install Cloudinary:
+```pip3 install dj3-cloudinary-storage```
+- Creating the requirements.txt file with the following command:
+```pip3 freeze --local > requirements.txt```
+- a django project was created using:
+```django-admin startproject printstatements .```
+- the blog app was then created with:
+```python3 manage.py startapp blog```
+- which was then added to the settings.py file within our project directory.
+- the changes were then migrated using:
+```python3 manage.py migrate```
+- navigated to [Heroku](www.heroku.com) & created a new app called print-statements.
+- added the Heroku Postgres database to the Resources tab.
+- navigated to the Settings Tab, to add the following key/value pairs to the configvars:
+1. key: SECRET_KEY | value: randomkey
+2. key: PORT | value: 8000
+3. key: CLOUDINARY_URL | value: API environment variable
+4. key: DATABASE_URL | value: value supplied by Heroku
+- added the DATABASE_URL, SECRET_KEY & CLOUDINARY_URL to the env.py file
+- added the DATABASE_URL, SECRET_KEY & CLOUDINARY_URL to the settings.py file
+- add an import os statement for the env.py file.
+- added Heroku to the ALLOWED_HOSTS in settings.py
+- created the Procfile
+- pushed the project to Github
+- connected my github account to Heroku through the Deploy tab
+- connected my github project repository, and then clicked on the "Deploy" button
+
+* Due to Heroku revoking their frie tier access, the project has been redeployed using (Render)[https://render.com/] & (ElephantSQL)[https://www.elephantsql.com/] using the following [instructions](https://code-institute-students.github.io/deployment-docs/30-pp4/)
+- The live link for "print(STATEMENTS)" can be found [HERE](https://project4-print-statements.onrender.com/)
 
 
 ## Credits
