@@ -3,6 +3,8 @@ The SOOQ website is a virtual marketplace where users can sign up to buy and sel
 It currently consists of three categories "Clothes", "Furniture" and "Toys". New categories as well as sub categories can be added as the demand increases.
 
 ![PP4 am i res](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/6d8998cc-a3c1-43ea-9e3c-d1e3192bcb81)
+
+
 ## UX
 
 ###  Site Purpose:
@@ -54,11 +56,64 @@ To buy, sell and explore a wide range or categories, sub categories and niched p
 * The color contrast appears to be well-balanced for readability.
 * The site layout is likely to be responsive, ensuring it can be used across various devices effectively.
 
+## User Stories:
+### Milestone 1: Account Management
 
-## Data schema
-  ![PP4 DrawSQL](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/4a6e18b5-aac1-4a27-b94b-d6af415d8066)
+#### USER STORY: Sign Up
 
-## Wireframe
+* As a new visitor,
+ I want to sign up for an account on SooQ,
+ So that I can start listing and buying items on the platform.
+
+
+ #### USER STORY: Log In
+
+* As a registered user,
+I want to log into my SooQ account,
+So that I can access my personal dashboard and interact with the marketplace.
+
+#### USER STORY: Logout
+
+* As a current user,
+I want to easily log out of my SooQ account,
+So that I can ensure my account remains secure when I'm not using the site.
+
+### Milestone 2: Item Management
+
+#### USER STORY: List an Item
+
+* As a seller,
+I want to list an item for sale on SooQ,
+So that I can efficiently reach potential buyers.
+
+#### USER STORY: Delete Items
+
+* As a seller,
+I want to have the ability to delete my listings from SooQ,
+So that I can manage my selling items and remove those that are no longer available.
+
+#### USER STORY: Edit Items
+
+As a seller,
+I want to edit the details of my listings on SooQ,
+So that I can update information and keep the listings accurate and appealing to buyers.
+
+### Milestone 3: Search and Communication
+
+#### USER STORY: Search for Items
+
+* As a buyer,
+I want to search for items I am interested in on SooQ,
+So that I can find exactly what I'm looking for quickly and efficiently.
+
+#### USER STORY: Communication
+
+* As a user,
+I want to communicate securely with other users on SooQ,
+So that I can negotiate deals, ask questions, and get more information about listings.
+
+## Design
+### Wireframe
 ![Browse page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/fdcd54cb-d48d-4907-aedc-8a39b3adb2fa)
 ![Contact page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/b88e06e3-1648-4433-90a1-6c10caa52c15)
 ![Landing page signed in](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/ce8efc52-53e1-420e-afd6-9709885a85ac)
@@ -68,6 +123,54 @@ To buy, sell and explore a wide range or categories, sub categories and niched p
 ![Signed in- Dashboard page](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/ac495007-30fc-43a5-8b3e-33cd6fbf17ad)
 ![Signed in- Inbox](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/a8437967-9a3d-4ada-865c-86ecfae6c309)
 ![Signed in- New item pagge](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/7880cb97-bbe5-4968-b557-674d13bc97fb)
+
+
+### Data schema
+  ![PP4 DrawSQL](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/4a6e18b5-aac1-4a27-b94b-d6af415d8066)
+
+### Colour Scheme:
+![image](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/48061d63-7f8b-443e-89dd-1acaa51242a5)
+
+## Features
+
+### Existing Features:
+
+#### Home Page:
+![Screenshot 2024-02-10 092846](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/64c998b0-d39b-4015-a74b-635f0a1f5853)
+
+#### Navigation Bar:
+![Screenshot 2024-02-10 092940](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/a8b6f8cb-5456-4a73-83b3-aa5cf1bd39a3)
+
+### Browsing items:
+![Screenshot 2024-02-10 093143](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/487e5aad-ea27-4fc9-a298-b994bc5f98f6)
+
+### Sign up:
+![sign up](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/88a48109-6803-4368-892c-e7f97742f7d8)
+
+
+### Sign in:
+![Screenshot 2024-02-10 093422](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/babb9ef9-a5b4-4e49-9bba-2f20496a6829)
+
+### Inbox:
+![Screenshot 2024-02-10 093042](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/52e96d0b-11cd-415a-9337-450c8ed883b8)
+
+
+### Who gives a C.R.U.D:
+
+#### Create (button):
+
+![Screenshot 2024-02-10 092846](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/a696cc11-2f5b-4cd0-ae96-5192c3446728)
+
+#### Create (form):
+![Screenshot 2024-02-10 093232](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/7b16f370-6da9-4b22-a730-355cc2c849fe)
+
+#### Read:
+![Read](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/8d46045d-acd7-4167-82d0-1d7ae5e24ae2)
+
+#### Update & Delete:
+![Update and delete ](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/869ef0e5-1ee6-4fb2-98ce-e3ae228c6219)
+
+
 
 ## The SOOQ landing page- not signed in
 
@@ -155,29 +258,39 @@ A new message will notify the user in later updates.
 ### Validator Testing
 | **TEST** | **ACTION** | **EXPECTATION** | **RESULT** |
 | ----------------------------- | ----------------------- | --------------------------- | ---------- |
+| sooq- settings.py | PEP8 validator |[No issues found]| ✅ |
 | sooq - urls.py | PEP8 validator | No issues found | ✅ |
 | core - forms.py | PEP8 validator | No issues found | ✅ |
 | core - models.py | PEP8 validator | No issues found | ✅ |
-| core- views.py | PEP8 validator | No issues found | ✅ |
+| core - views.py | PEP8 validator | No issues found | ✅ |
 | core - urls.py | PEP8 validator | No issues found | ✅ |
 | core - admin.py | PEP8 validator | No issues found | ✅ |
-| core- forms.py | PEP8 validator | No issues found | ✅ |
+| item - forms.py | PEP8 validator | No issues found | ✅ |
+| item - models.py | PEP8 validator | No issues found | ✅ |
+| item- views.py | PEP8 validator | No issues found | ✅ |
+| item - urls.py | PEP8 validator | No issues found | ✅ |
+| item - admin.py | PEP8 validator | No issues found | ✅ |
 | dashboard - models.py | PEP8 validator | No issues found | ✅ |
-| dashboard - views.py | PEP8 validator | No issues found | ✅ |
+| dashboard- views.py | PEP8 validator | No issues found | ✅ |
 | dashboard - urls.py | PEP8 validator | No issues found | ✅ |
 | dashboard - admin.py | PEP8 validator | No issues found | ✅ |
-| style.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found](static/images-readme/readme-w3c-css.png) | ✅ |
-| Home page - html | [W3C](https://validator.w3.org/) validator - source code | No issues found | ✅ |
-| About page - html | W3C validator - source code | No issues found | ✅ |
-| Blog page - html | W3C validator - source code | No issues found | ✅ |
-| Prints page - html | W3C validator - source code | No issues found | ✅ |
-| Sign-in page - html | W3C validator - source code | No issues found | ✅ |
-| Home page - html | lighthouse | [Acceptable scores](static/images-readme/readme-lighthouse.png) | ✅ |
-| About page - html | lighthouse | Acceptable scores | ✅ |
-| Blog page - html | lighthouse | Acceptable scores | ✅ |
-| Prints page - html | lighthouse | Acceptable scores | ✅ |
-| Sign-in page - html | lighthouse | Acceptable scores | ✅ |
-| Brave browser | Launch site | Site opens without issue | ✅ |
+| conversation - forms.py | PEP8 validator | No issues found | ✅ |
+| conversation - models.py | PEP8 validator | No issues found | ✅ |
+| conversation - views.py | PEP8 validator | No issues found | ✅ |
+| conversation - urls.py | PEP8 validator | No issues found | ✅ |
+| conversation - admin.py | PEP8 validator | No issues found | ✅ |
+| base.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found] | ✅ |
+| dashboard.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found] | ✅ |
+| fonts.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found] | ✅ |
+| login.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found] | ✅ |
+| nav_sidebar.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found] | ✅ |
+| responsive_rtl.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found] | ✅ |
+| responsive.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found] | ✅ |
+| rtl.css | [W3C - Jigsaw](https://jigsaw.w3.org/css-validator/) validator | [No issues found] | ✅ |
+| base- html | [W3C](https://validator.w3.org/) validator - source code | No issues found | ✅ |
+| index- html | [W3C](https://validator.w3.org/) validator - source code | No issues found | ✅ |
+| login- html | [W3C](https://validator.w3.org/) validator - source code | No issues found | ✅ |
+| signup- html | [W3C](https://validator.w3.org/) validator - source code | No issues found | ✅ |
 | Chrome browser | Launch site | Site opens without issue | ✅ |
 | Safari browser | Launch site | Site opens without issue | ✅ |
 
@@ -265,9 +378,6 @@ A new message will notify the user in later updates.
 - 'django<4' gunicorn
 - dj_database_url psycopg2
 - dj3-cloudinary-storage
-- django-summernote [(link)](https://summernote.org/)
-- django-allauth [(link)](https://django-allauth.readthedocs.io/en/latest/)
-- django-crispy-forms[(link)](https://django-crispy-forms.readthedocs.io/en/latest/index.html)
 
 ## Deployment
 The site was deployed to Heroku. The steps to deploy are as follows:
@@ -302,11 +412,12 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 - connected my github account to Heroku through the Deploy tab
 - connected my github project repository, and then clicked on the "Deploy" button
 
-* Due to Heroku revoking their frie tier access, the project has been redeployed using (Render)[https://render.com/] & (ElephantSQL)[https://www.elephantsql.com/] using the following [instructions](https://code-institute-students.github.io/deployment-docs/30-pp4/)
-- The live link for "print(STATEMENTS)" can be found [HERE](https://project4-print-statements.onrender.com/)
-
 
 ## Credits
-- CI material for the given project.
-- Royalty free images from Pexels.com
-- Used virtual marketplace sites as inspiration, such as Facebook marketplace.
+
+### Content
+“I think therefore I blog” walkthrough: Provided the initial steps for setting up & deploying the site.
+
+### Media:
+- All images was taken from [pixabay](https://pixabay.com/)
+
