@@ -4,6 +4,7 @@ It currently consists of three categories "Clothes", "Furniture" and "Toys". New
 
 ![PP4 am i res](https://github.com/ibrahimjasim/Project-Milestone-4/assets/127301769/6d8998cc-a3c1-43ea-9e3c-d1e3192bcb81)
 
+The live link for "SooQ" can be found [here](https://project-milestone-4-a3fe406458a7.herokuapp.com/)
 
 ## UX
 
