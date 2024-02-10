@@ -1,16 +1,11 @@
 /* Tablets */
 
 input[type="submit"], button {
-    -webkit-appearance: none;
     appearance: none;
 }
 
 @media (max-width: 1024px) {
     /* Basic */
-
-    html {
-        -webkit-text-size-adjust: 100%;
-    }
 
     td, th {
         padding: 10px;
@@ -138,16 +133,7 @@ input[type="submit"], button {
     #changelist .actions label {
         display: flex;
     }
-
-    #changelist .actions select {
-        background: var(--body-bg);
-    }
-
-    #changelist .actions .button {
-        min-width: 48px;
-        margin: 0 10px;
-    }
-
+    
     #changelist .actions span.all,
     #changelist .actions span.clear,
     #changelist .actions span.question,
@@ -165,19 +151,11 @@ input[type="submit"], button {
     .filtered #toolbar,
     .filtered .actions,
 
-    #changelist .paginator {
-        border-top-color: var(--hairline-color); /* XXX Is this used at all? */
-    }
-
     #changelist .results + .paginator {
         border-top: none;
     }
 
     /* Forms */
-
-    label {
-        font-size: 14px;
-    }
 
     .form-row input[type=text],
     .form-row input[type=password],
@@ -210,11 +188,6 @@ input[type="submit"], button {
         padding: 0 10px;
     }
 
-    fieldset .fieldBox + .fieldBox {
-        margin-top: 10px;
-        padding-top: 10px;
-        border-top: 1px solid var(--hairline-color);
-    }
 
     textarea {
         max-width: 100%;
@@ -225,12 +198,6 @@ input[type="submit"], button {
         padding-top: 6px;
     }
 
-    .aligned .related-lookup,
-    .aligned .datetimeshortcuts,
-    .aligned .related-lookup + strong {
-        align-self: center;
-        margin-left: 15px;
-    }
 
     form .aligned ul.radiolist {
         margin-left: 2px;
@@ -396,16 +363,6 @@ input[type="submit"], button {
         font-size: 13px;
     }
 
-    .datetime .timezonewarning {
-        display: block;
-        font-size: 11px;
-        color: var(--body-quiet-color);
-    }
-
-    .datetimeshortcuts {
-        color: var(--border-color); /* XXX Redundant, .datetime span also sets #ccc */
-    }
-
     .form-row .datetime input.vDateField, .form-row .datetime input.vTimeField {
         width: 75%;
     }
@@ -416,17 +373,8 @@ input[type="submit"], button {
 
     /* Messages */
 
-    ul.messagelist li {
-        padding-left: 55px;
-        background-position: 30px 12px;
-    }
-
     ul.messagelist li.error {
         background-position: 30px 12px;
-    }
-
-    ul.messagelist li.warning {
-        background-position: 30px 14px;
     }
 
     /* Login */
@@ -739,13 +687,6 @@ input[type="submit"], button {
 
     /* Inlines */
 
-    .inline-group[data-inline-type="stacked"] .inline-related {
-        border: 1px solid var(--hairline-color);
-        border-radius: 4px;
-        margin-top: 15px;
-        overflow: auto;
-    }
-
     .inline-group[data-inline-type="stacked"] .inline-related > * {
         box-sizing: border-box;
     }
@@ -754,46 +695,14 @@ input[type="submit"], button {
         padding: 0 10px;
     }
 
-    .inline-group[data-inline-type="stacked"] .inline-related .module .form-row {
-        border-top: 1px solid var(--hairline-color);
-        border-bottom: none;
-    }
+   
 
     .inline-group[data-inline-type="stacked"] .inline-related .module .form-row:first-child {
         border-top: none;
     }
 
-    .inline-group[data-inline-type="stacked"] .inline-related h3 {
-        padding: 10px;
-        border-top-width: 0;
-        border-bottom-width: 2px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .inline-group[data-inline-type="stacked"] .inline-related h3 .inline_label {
-        margin-right: auto;
-    }
-
-    .inline-group[data-inline-type="stacked"] .inline-related h3 span.delete {
-        float: none;
-        flex: 1 1 100%;
-        margin-top: 5px;
-    }
-
-    .inline-group[data-inline-type="stacked"] .aligned .form-row > div:not([class]) {
-        width: 100%;
-    }
-
     .inline-group[data-inline-type="stacked"] .aligned label {
         width: 100%;
-    }
-
-    .inline-group[data-inline-type="stacked"] div.add-row {
-        margin-top: 15px;
-        border: 1px solid var(--hairline-color);
-        border-radius: 4px;
     }
 
     .inline-group div.add-row,
@@ -839,10 +748,6 @@ input[type="submit"], button {
 
     ul.messagelist li {
         padding-left: 40px;
-        background-position: 15px 12px;
-    }
-
-    ul.messagelist li.error {
         background-position: 15px 12px;
     }
 
@@ -961,11 +866,6 @@ input[type="submit"], button {
         margin: 0 4px;
     }
 
-    .timelist a {
-        background: var(--body-bg);
-        padding: 4px;
-    }
-
     .calendar-cancel {
         padding: 8px 10px;
     }
@@ -983,21 +883,8 @@ input[type="submit"], button {
         top: 10px;
     }
 
-    /* History */
-
-    table#change-history tbody th, table#change-history tbody td {
-        font-size: 13px;
-        word-break: break-word;
-    }
-
     table#change-history tbody th {
         width: auto;
     }
 
-    /* Docs */
-
-    table.model tbody th, table.model tbody td {
-        font-size: 13px;
-        word-break: break-word;
-    }
 }

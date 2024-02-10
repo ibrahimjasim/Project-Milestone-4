@@ -1,10 +1,5 @@
 /* LOGIN FORM */
 
-.login {
-    background: var(--darkened-bg);
-    height: auto;
-}
-
 .login #header {
     height: auto;
     padding: 15px 16px;
@@ -13,25 +8,6 @@
 
 .login #header h1 {
     font-size: 18px;
-}
-
-.login #header h1 a {
-    color: var(--header-link-color);
-}
-
-.login #content {
-    padding: 20px 20px 0;
-}
-
-.login #container {
-    background: var(--body-bg);
-    border: 1px solid var(--hairline-color);
-    border-radius: 4px;
-    overflow: hidden;
-    width: 28em;
-    min-width: 300px;
-    margin: 100px auto;
-    height: auto;
 }
 
 .login .form-row {
