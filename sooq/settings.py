@@ -32,7 +32,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
     'project-milestone-4-a3fe406458a7.herokuapp.com',
-    '8000-ibrahimjasi-projectmile-0ub3mi52yit.ws-eu108.gitpod.io']
+    '8000-ibrahimjasi-projectmile-6tbmg4rybcf.ws-eu110.gitpod.io']
 
 LOGIN_URL = '/login'
 LOGIN_REDIRECT_URL = '/'
